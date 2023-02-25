@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    font-size: 15px;
+    overflow-x:hidden
+}
+
+.navbar {
+    background-color:rgba(128, 0, 0, 0.508);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 20px;
+}
+
+#Page{
+    background-color: aqua;
+    width: 100%;
+    height: 790px;
+    background: url(./../Images/banniere.jpeg);
+    background-size: 100% 100%;
+}
+
+
+#Page p{
+    font-size: 28px;
+    font-family: tahoma;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+#Page button{
+    width: 10%;
+    height: 50px;
+    background-color:rgba(128, 0, 0, 0.508) ;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 43%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Page :hover button{
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    color: rgba(128, 0, 0, 0.508);
+}
+
+.nav-links select{
+    width: 20%;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.nav-links option{
+    font-size: 15px;
+}
+
+.
