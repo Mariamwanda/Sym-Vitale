@@ -85,13 +85,44 @@
 
 .MesImages{
     background-color: aqua;
-    width: 100%;
+    max-width:100%;
     height: 650px;
+    display: flex;
 }
 
 
 .MesImages .Img1{
     background-color: blueviolet;
     width: 20%;
+    height: 500px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 1px solid black;
+    
+}
+
+.MesImages .Img1 img{
+    width: 100%;
+    height: 120px;
+}
+
+.MesImages .Img2{
+    background-color: rgb(36, 35, 37);
+    width: 30%;
     height: 100px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+   
+}
+
+.MesImages .Img3{
+    background-color: rgb(212, 190, 233);
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    
 }
